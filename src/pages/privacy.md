@@ -3,14 +3,7 @@ title: 'Privacy Policy'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-{/*
-  ============================================================================
-  TEMPLATE NOTE: Update this privacy policy with your actual information
-  Replace all [PLACEHOLDER] values with your real data before going live.
-  ============================================================================
-*/}
-
-**Ultimo aggiornamento:** [DATA_AGGIORNAMENTO]
+**Ultimo aggiornamento:** 14 marzo 2026
 
 ## 1. INTRODUZIONE
 
@@ -18,7 +11,7 @@ Benvenuti sul nostro sito web dedicato all'affitto di appartamenti per brevi per
 
 ## 2. TITOLARE DEL TRATTAMENTO
 
-Il Titolare del trattamento dei dati personali è [NOME_TITOLARE], residente in [INDIRIZZO_TITOLARE], codice fiscale: [CODICE_FISCALE], email: [EMAIL_CONTATTO].
+Il Titolare del trattamento dei dati personali è Lorenzo Ianes, residente in Via Giuseppina Bassetti, 2 38123 Trento, codice fiscale: NSILNZ69E02L378N, email: loianes.re@gmail.com.
 
 ## 3. TIPOLOGIE DI DATI RACCOLTI
 
@@ -105,7 +98,7 @@ I dati personali possono essere trasferiti verso paesi dell'Unione Europea o ver
 
 ## 10. COOKIE E TECNOLOGIE SIMILI
 
-Il nostro sito utilizza cookie e tecnologie simili per migliorare l'esperienza dell'utente, analizzare il traffico e personalizzare i contenuti. Per maggiori informazioni sui cookie utilizzati, consultare la nostra Cookie Policy [INSERIRE LINK ALLA COOKIE POLICY].
+Il nostro sito utilizza cookie e tecnologie simili per migliorare l'esperienza dell'utente, analizzare il traffico e personalizzare i contenuti. Per maggiori informazioni sui cookie utilizzati, consultare la nostra [Cookie Policy](/cookies).
 
 ## 11. DIRITTI DEGLI INTERESSATI
 
@@ -134,7 +127,7 @@ La presente Privacy Policy potrebbe essere soggetta a modifiche. Ogni aggiorname
 
 Per qualsiasi domanda o chiarimento riguardante la presente Privacy Policy o il trattamento dei dati personali, gli utenti possono contattare il Titolare del trattamento ai seguenti recapiti:
 
-- Email: [EMAIL_CONTATTO]
+- Email: loianes.re@gmail.com
 
 ---
 

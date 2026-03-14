@@ -85,9 +85,10 @@ const siteConfig: SiteConfig = {
     /** VAT/Tax ID number */
     // vatNumber: 'XX12345678901',
 
-    /** Registration codes (CIN, licenses, etc.) */
+    /** Registration codes (CIR, CIN, licenses, etc.) */
     registrationCodes: [
-      '022205-AT-019048',
+      'CIR: 022205-AT-019048',
+      'CIN: IT022205C2TTLGJDR3',
     ],
 
     /** Legal page URLs */

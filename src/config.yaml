@@ -1,6 +1,6 @@
 site:
-  name: Your Property Name
-  site: 'https://yourdomain.com'
+  name: Elbombet
+  site: 'https://www.elbombet.it/'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Your Property Name
-    template: '%s — Your Property Name'
+    default: Elbombet
+    template: '%s — Elbombet'
   description: "Vacation rentals for your perfect getaway"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Your Property Name
+    site_name: Elbombet
     images:
       - url: '~/assets/images/default.png'
         width: 1200
