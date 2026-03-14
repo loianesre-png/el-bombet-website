@@ -51,50 +51,27 @@ export const coreServices: Service[] = [
     icon: 'tabler:wifi',
   },
   {
-    title: 'Parcheggio in struttura',
-    description: 'Parcheggia comodamente la tua auto nella nostra struttura, senza pensieri e senza costi aggiuntivi.',
-    icon: 'tabler:parking-circle',
-  },
-  {
     title: 'Check-in flessibile a partire dalle 16:00',
     description:
       "Arriva quando vuoi dalle 16:00 in poi, hai la libertà di scegliere l'orario di arrivo più comodo per te. Check-out alle 10:00.",
     icon: 'tabler:door-enter',
   },
   {
-    title: 'Riscaldamento e raffrescamento a pavimento',
-    description: 'Il massimo del comfort termico in ogni stagione, per un ambiente sempre alla temperatura ideale.',
+    title: 'Riscaldamento e raffrescamento',
+    description: "Il massimo del comfort termico in ogni stagione, per un ambiente sempre alla temperatura ideale. Impianto a pompa di calore, zero emissioni e nessun pericolo di fughe di gas o monossido di carbonio. App per la gestione remota in autonomia della temperatura.",
     icon: 'tabler:air-conditioning',
   },
   {
     title: 'Cucina ben attrezzata',
     description:
-      'Ogni appartamento dispone di una cucina completa, dotata di tutto il necessario per preparare e gustare i tuoi pasti preferiti.',
+      "El Bombet dispone di una cucina completa, dotata di tutto il necessario per preparare e gustare i tuoi pasti preferiti. Moderno piano ad induzione, forno ventilato, forno microonde, bollitore, ampio frigorifero con cella freezer.",
     icon: 'tabler:tools-kitchen',
-  },
-  {
-    title: 'Balcone privato',
-    description:
-      "Goditi la vista e l'aria fresca dal balcone del tuo appartamento, perfetto per un momento di relax all'aperto.",
-    icon: 'tabler:building-bridge-2',
   },
   {
     title: 'Biancheria e asciugamani inclusi',
     description:
       'Troverai tutto ciò di cui hai bisogno per un soggiorno confortevole, con biancheria e asciugamani forniti per ogni ospite.',
     icon: 'tabler:bed',
-  },
-  {
-    title: 'Ascensore',
-    description:
-      "L'ascensore offre un accesso facile e comodo a tutti gli appartamenti, garantendo un soggiorno senza ostacoli per famiglie, coppie e ospiti con mobilità ridotta.",
-    icon: 'tabler:elevator',
-  },
-  {
-    title: 'Cassaforte',
-    description:
-      'Per la tua sicurezza, ogni appartamento è dotato di una cassaforte per riporre i tuoi oggetti di valore in tutta tranquillità.',
-    icon: 'tabler:lock',
   },
 ];
 
@@ -173,14 +150,14 @@ export const localRecommendations: LocalRecommendation[] = [
     type: 'attraction',
     description:
       'Bellissimo centro medievale con Piazza Duomo, Castello del Buonconsiglio e vie storiche ricche di negozi e caffè.',
-    distance: '5 km',
+    distance: '0 m',
   },
   {
     name: 'MUSE - Museo delle Scienze',
     type: 'attraction',
     description:
       'Museo interattivo e innovativo progettato da Renzo Piano, perfetto per famiglie e appassionati di scienza.',
-    distance: '6 km',
+    distance: '1,5 km a piedi',
   },
   {
     name: 'Monte Bondone',
@@ -208,7 +185,28 @@ export const localRecommendations: LocalRecommendation[] = [
     type: 'attraction',
     description:
       'Durante il periodo natalizio, Trento ospita famosi mercatini con artigianato locale, gastronomia e atmosfera magica.',
-    distance: '5 km',
+    distance: '200 m',
+  },
+  {
+    name: "Festival dell'Economia",
+    type: 'attraction',
+    description:
+      "Durante il Festival dell'Economia, Trento diventa un palcoscenico internazionale: grandi premi Nobel ed esperti si incontrano tra le piazze e i palazzi del centro per dibattiti e riflessioni sul futuro.",
+    distance: '400 m',
+  },
+  {
+    name: 'Trento Filmfestival della Montagna',
+    type: 'attraction',
+    description:
+      "A fine aprile con il Trento Film Festival, la città celebra il cinema di montagna con la rassegna più antica del mondo: proiezioni d'autore, alpinisti e grandi anteprime internazionali tra cultura e avventura.",
+    distance: '200 m',
+  },
+  {
+    name: 'Festival dello Sport',
+    type: 'attraction',
+    description:
+      'In autunno con il Festival dello Sport, Trento si trasforma in un villaggio olimpico a cielo aperto: grandi campioni internazionali e leggende dello sport si raccontano tra i palazzi del centro.',
+    distance: '400 m',
   },
   {
     name: 'Orrido di Ponte Alto',
@@ -221,8 +219,8 @@ export const localRecommendations: LocalRecommendation[] = [
     name: 'Fermate autobus urbano',
     type: 'transport',
     description:
-      'Fermata autobus nelle vicinanze con collegamenti frequenti per il centro di Trento e località limitrofe.',
-    distance: '200 m',
+      'Fermata autobus nelle vicinanze con collegamenti frequenti per la stazione dei treni, dei pullman ed i sobborghi della collina, Poli Universitari e Centri di Ricerca.',
+    distance: '100 m',
   },
   {
     name: 'Supermercato',

@@ -32,7 +32,7 @@ export const headerData = {
   actions: [
     {
       text: 'Contattaci',
-      href: '/contact',
+      href: '/contatti',
     },
   ],
 };

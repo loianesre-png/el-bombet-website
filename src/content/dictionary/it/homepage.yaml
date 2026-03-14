@@ -58,11 +58,11 @@ about:
   section_id: "about"
   title: "Il tuo rifugio nel cuore del Quartiere di San Pietro"
   description: >
-    El Bombet è situato in un tranquillo edificio tra i suggestivi vicoli
+    La residenza El Bombet è situato in un tranquillo edificio tra i suggestivi vicoli
     del Quartiere di San Pietro (storicamente "Contrada Todesca"). L'appartamento,
-    recentemente ristrutturato in un palazzo storico del 1700, offre tutti i
-    comfort moderni mantenendo il fascino del centro storico. Perfetto per
-    coppie, famiglie e viaggiatori d'affari.
+    completamente ristrutturato nel 2025 in un palazzo storico del 1700, offre tutti i
+    comfort moderni mantenendo il fascino del centro storico della città del
+    Concilio. Perfetto per coppie, famiglie e soggiorni di lavoro.
 
   # Key selling points
   highlights:
@@ -77,7 +77,7 @@ about:
 apartments:
   section_id: "properties"
   title: "Il tuo Appartamento a Trento"
-  subtitle: "54 m² di comfort nel cuore del centro storico. Camera matrimoniale, soggiorno con divano letto, cucina attrezzata e bagno privato."
+  subtitle: "54 m² di comfort nel cuore del centro storico. Camera matrimoniale, soggiorno con divano letto, moderna cucina attrezzata e bagno privato."
 
   # Comparison banner
   comparison_banner:

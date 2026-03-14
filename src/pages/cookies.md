@@ -1,134 +1,130 @@
 ---
-title: 'COOKIE POLICY'
+title: 'Cookie Policy'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-**Last updated:** [Date]
+**Ultimo aggiornamento:** 14 marzo 2026
 
-## 1. WHAT ARE COOKIES
+## 1. COSA SONO I COOKIE
 
-Cookies are small text files that websites send to the user's device (computer, tablet, smartphone) where they are stored to be transmitted back to the same sites on subsequent visits. Cookies allow websites to "remember" the user and their preferences, navigate between pages efficiently, and collect information about users' browsing experience.
+I cookie sono piccoli file di testo che i siti web inviano al dispositivo dell'utente (computer, tablet, smartphone) dove vengono memorizzati per essere poi ritrasmessi agli stessi siti nelle visite successive. I cookie permettono ai siti web di "ricordare" l'utente e le sue preferenze, navigare tra le pagine in modo efficiente e raccogliere informazioni sull'esperienza di navigazione degli utenti.
 
-## 2. DATA CONTROLLER
+## 2. TITOLARE DEL TRATTAMENTO
 
-The Data Controller is [Your Company Name], located at [Your Address], email: [your-email@example.com].
+Il Titolare del trattamento è Lorenzo Ianes, residente in Via Giuseppina Bassetti, 2 38123 Trento, codice fiscale: NSILNZ69E02L378N, email: loianes.re@gmail.com.
 
-## 3. TYPES OF COOKIES USED
+## 3. TIPOLOGIE DI COOKIE UTILIZZATI
 
-### 3.1 Technical Cookies
+### 3.1 Cookie Tecnici
 
-These are cookies necessary for the site to function and to provide the services offered. They allow, for example, to recognize if the user has already visited the site, manage login and authentication, remember user choices during navigation, and optimize the experience. These cookies do not require user consent.
+Sono cookie necessari al funzionamento del sito e alla fornitura dei servizi offerti. Consentono, ad esempio, di riconoscere se l'utente ha già visitato il sito, gestire il login e l'autenticazione, ricordare le scelte dell'utente durante la navigazione e ottimizzare l'esperienza. Questi cookie non richiedono il consenso dell'utente.
 
-**Technical cookies used on our site:**
+**Cookie tecnici utilizzati sul nostro sito:**
 
-- Session cookies: deleted when the user closes the browser
-- Navigation cookies: allow normal site operation
-- Functionality cookies: allow remembering user choices (such as language, currency, etc.)
+- Cookie di sessione: eliminati alla chiusura del browser
+- Cookie di navigazione: permettono il normale funzionamento del sito
+- Cookie di funzionalità: permettono di ricordare le scelte dell'utente (come la lingua, la valuta, ecc.)
 
-### 3.2 Analytical Cookies
+### 3.2 Cookie Analitici
 
-Used to collect information about site usage, such as number of visitors, pages visited, time spent on the site, etc. This data helps us understand how users interact with our site and improve its functionality.
+Utilizzati per raccogliere informazioni sull'utilizzo del sito, come il numero di visitatori, le pagine visitate, il tempo trascorso sul sito, ecc. Questi dati ci aiutano a comprendere come gli utenti interagiscono con il nostro sito e a migliorarne la funzionalità.
 
-**Analytical cookies used on our site:**
+### 3.3 Cookie di Profilazione
 
-- Google Analytics (with anonymized IP): \_ga, \_gat, \_gid
+Utilizzati per tracciare la navigazione dell'utente e creare profili sulle sue preferenze, abitudini, scelte, ecc. Attraverso questi cookie è possibile inviare agli utenti messaggi pubblicitari in linea con le preferenze manifestate durante la navigazione.
 
-### 3.3 Profiling Cookies
+### 3.4 Cookie di Terze Parti
 
-Used to track user navigation and create profiles about their preferences, habits, choices, etc. Through these cookies, it is possible to send users advertising messages aligned with preferences shown during navigation.
+Sono cookie impostati da siti web diversi da quello che l'utente sta visitando. Questi cookie possono essere inviati al browser dell'utente da società terze direttamente dai loro siti web accessibili navigando dal sito visitato.
 
-### 3.4 Third-Party Cookies
+## 4. DURATA DEI COOKIE
 
-These are cookies set by websites other than the one the user is visiting. These cookies may be sent to the user's browser by third-party companies directly from their websites accessible by navigating from the site being visited.
+I cookie possono avere una durata limitata alla sessione di navigazione (eliminati alla chiusura del browser) o una durata più lunga, rimanendo attivi sul dispositivo anche dopo la chiusura del browser. La durata massima di un cookie è di 12 mesi, come previsto dalla normativa.
 
-## 4. COOKIE DURATION
+## 5. GESTIONE DEI COOKIE
 
-Cookies may have a duration limited to the browsing session (deleted when the user closes the browser) or a longer duration, remaining active on the device even after closing the browser. The maximum duration of a cookie is 12 months, as required by regulations.
+### 5.1 Banner Cookie
 
-## 5. COOKIE MANAGEMENT
+Al primo accesso al sito, l'utente visualizza un banner che informa brevemente sull'utilizzo dei cookie e offre la possibilità di:
 
-### 5.1 Cookie Banner
+- Accettare tutti i cookie
+- Rifiutare tutti i cookie non essenziali
+- Personalizzare le proprie scelte
+- Accedere a questa Cookie Policy per informazioni più dettagliate
 
-On first access to the site, the user sees a banner that briefly informs about the use of cookies and offers the option to:
+### 5.2 Come Modificare le Impostazioni dei Cookie
 
-- Accept all cookies
-- Reject all non-essential cookies
-- Customize their choices
-- Access this Cookie Policy for more detailed information
+Gli utenti possono decidere se consentire l'installazione di cookie sul proprio dispositivo configurando le impostazioni del browser. La maggior parte dei browser consente di:
 
-### 5.2 How to Change Cookie Settings
+- Visualizzare i cookie esistenti ed eliminarli singolarmente
+- Bloccare i cookie di terze parti
+- Bloccare i cookie di siti specifici
+- Bloccare l'installazione di tutti i cookie
+- Eliminare tutti i cookie alla chiusura del browser
 
-Users can decide whether to allow cookie installation on their device by configuring browser settings. Most browsers allow:
-
-- View existing cookies and delete them individually
-- Block third-party cookies
-- Block cookies from specific sites
-- Block installation of all cookies
-- Delete all cookies when closing the browser
-
-Procedures for managing cookies in major browsers:
+Procedure per la gestione dei cookie nei principali browser:
 
 **Chrome**
 
-1. Click on the menu in the browser toolbar
-2. Select "Settings"
-3. Click on "Privacy and security"
-4. Select "Cookies and other site data"
+1. Cliccare sul menu nella barra degli strumenti del browser
+2. Selezionare "Impostazioni"
+3. Cliccare su "Privacy e sicurezza"
+4. Selezionare "Cookie e altri dati dei siti"
 
 **Firefox**
 
-1. Click on the menu in the browser toolbar
-2. Select "Options"
-3. Select "Privacy & Security"
-4. Go to "Cookies and Site Data" section
+1. Cliccare sul menu nella barra degli strumenti del browser
+2. Selezionare "Opzioni"
+3. Selezionare "Privacy e sicurezza"
+4. Andare alla sezione "Cookie e dati dei siti web"
 
 **Safari**
 
-1. Click on "Safari" from the menu bar
-2. Select "Preferences"
-3. Click on "Privacy"
-4. Manage cookie settings
+1. Cliccare su "Safari" dalla barra dei menu
+2. Selezionare "Preferenze"
+3. Cliccare su "Privacy"
+4. Gestire le impostazioni dei cookie
 
 **Edge**
 
-1. Click on the menu in the browser toolbar
-2. Select "Settings"
-3. Click on "Cookies and site permissions"
-4. Manage cookie settings
+1. Cliccare sul menu nella barra degli strumenti del browser
+2. Selezionare "Impostazioni"
+3. Cliccare su "Cookie e autorizzazioni sito"
+4. Gestire le impostazioni dei cookie
 
-Disabling cookies may prevent some site features from working properly.
+La disabilitazione dei cookie potrebbe impedire il corretto funzionamento di alcune funzionalità del sito.
 
-## 6. LEGAL BASIS FOR PROCESSING
+## 6. BASE GIURIDICA DEL TRATTAMENTO
 
-The legal basis for using technical cookies is the legitimate interest of the controller to ensure proper site operation and security.
+La base giuridica per l'utilizzo dei cookie tecnici è il legittimo interesse del titolare a garantire il corretto funzionamento e la sicurezza del sito.
 
-For analytical, profiling, and third-party cookies, the legal basis is user consent, which may be expressed via the cookie banner or browser settings.
+Per i cookie analitici, di profilazione e di terze parti, la base giuridica è il consenso dell'utente, che può essere espresso tramite il banner cookie o le impostazioni del browser.
 
-## 7. USER RIGHTS
+## 7. DIRITTI DELL'UTENTE
 
-Regarding the processing of personal data collected through cookies, users enjoy the same rights provided by our Privacy Policy:
+In relazione al trattamento dei dati personali raccolti tramite cookie, gli utenti godono degli stessi diritti previsti dalla nostra [Privacy Policy](/privacy):
 
-- Right of access
-- Right to rectification
-- Right to erasure
-- Right to restriction of processing
-- Right to data portability
-- Right to object
-- Right to withdraw consent
-- Right to lodge a complaint with the supervisory authority
+- Diritto di accesso
+- Diritto di rettifica
+- Diritto alla cancellazione
+- Diritto alla limitazione del trattamento
+- Diritto alla portabilità dei dati
+- Diritto di opposizione
+- Diritto di revoca del consenso
+- Diritto di reclamo all'autorità di controllo
 
-To exercise these rights, users may contact the Controller at the contact details indicated in the "Data Controller" section.
+Per esercitare tali diritti, gli utenti possono contattare il Titolare ai recapiti indicati nella sezione "Titolare del trattamento".
 
-## 8. COOKIE POLICY UPDATES
+## 8. AGGIORNAMENTI DELLA COOKIE POLICY
 
-This Cookie Policy may be subject to changes over time. Any updates will be published on our website with the relevant revision date. We recommend periodically checking this page to stay informed about how cookies are used.
+La presente Cookie Policy potrebbe essere soggetta a modifiche nel tempo. Ogni aggiornamento sarà pubblicato sul nostro sito web con la relativa data di revisione. Si consiglia di consultare periodicamente questa pagina per essere sempre informati sulle modalità di utilizzo dei cookie.
 
-## 9. CONTACTS
+## 9. CONTATTI
 
-For any questions or clarifications regarding this Cookie Policy or the use of cookies on our site, users may contact the Controller at:
+Per qualsiasi domanda o chiarimento riguardante la presente Cookie Policy o l'utilizzo dei cookie sul nostro sito, gli utenti possono contattare il Titolare ai seguenti recapiti:
 
-- Email: [your-email@example.com]
+- Email: loianes.re@gmail.com
 
 ---
 
-This Cookie Policy is drafted in accordance with EU Regulation 2016/679 (GDPR) and the ePrivacy Directive (Directive 2002/58/EC), as amended by Directive 2009/136/EC.
+La presente Cookie Policy è redatta ai sensi del Regolamento UE 2016/679 (GDPR) e della Direttiva ePrivacy (Direttiva 2002/58/CE), come modificata dalla Direttiva 2009/136/CE.

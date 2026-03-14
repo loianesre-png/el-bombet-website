@@ -60,39 +60,47 @@ rooms:
   - name: "Camera da Letto"
     description: >
       Camera matrimoniale spaziosa con letto matrimoniale large, armadio/guardaroba
-      e biancheria da letto di qualità. La camera offre un'atmosfera tranquilla
-      e confortevole per un riposo perfetto.
+      e biancheria da letto di qualità e soffici piumoni d'inverno. Climatizzazione
+      estiva ed invernale perfetta grazie all'unità dedicata, programmabile sia da
+      telecomando che da App per il controllo remoto. Smart TV 40". La camera offre
+      un'atmosfera tranquilla e confortevole per un riposo perfetto.
     image: "755394661.webp"
     amenities:
       - "Letto matrimoniale large"
       - "Armadio/guardaroba"
       - "Biancheria da letto"
+      - "Smart TV 40\""
+      - "Climatizzazione indipendente con telecomando o App"
 
   - name: "Soggiorno"
     description: >
-      Ingresso con soggiorno luminoso dotato di divano letto, TV a schermo piatto,
-      zona pranzo con tavolo e scrivania per lavorare. Lo spazio perfetto per
-      rilassarsi dopo una giornata alla scoperta di Trento.
+      Ingresso con soggiorno luminoso dotato di divano letto, SmartTV 50", zona pranzo
+      con tavolo. Climatizzazione estiva ed invernale perfetta
+      grazie all'unità dedicata, programmabile sia da telecomando che da App per il
+      controllo remoto. Lo spazio perfetto per rilassarsi dopo una giornata alla
+      scoperta di Trento.
     image: "755394692.webp"
     amenities:
       - "Divano letto"
-      - "TV a schermo piatto"
+      - "SmartTV 50\""
       - "Tavolo da pranzo"
       - "Scrivania"
+      - "Climatizzazione indipendente con telecomando o App"
 
   - name: "Angolo Cottura"
     description: >
       Angolo cottura completamente attrezzato con tutto il necessario per preparare
-      i vostri pasti. Include frigorifero, piano cottura, forno, microonde, lavatrice,
-      macchina da caffè, bollitore elettrico e utensili da cucina completi.
+      i vostri pasti. Include frigorifero con cella freezer separata, moderno piano
+      cottura ad induzione, forno ventilato, forno microonde, lavatrice, moca per
+      caffè italiano, bollitore elettrico e utensili da cucina completi.
     image: "755394655.webp"
     amenities:
-      - "Frigorifero"
-      - "Piano cottura"
-      - "Forno"
+      - "Frigorifero con cella freezer separata"
+      - "Piano cottura induzione"
+      - "Forno ventilato"
       - "Microonde"
       - "Lavatrice"
-      - "Macchina da caffè"
+      - "Moca da caffè italiano"
       - "Bollitore elettrico"
       - "Utensili da cucina"
       - "Prodotti per la pulizia"
