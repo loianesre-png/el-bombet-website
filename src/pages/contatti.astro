@@ -12,7 +12,7 @@ import Features2 from '~/components/widgets/Features2.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 
 import { getContactContent, getCommonContent } from '~/utils/content';
-import { getContactEmail, getFormattedAddress, getSiteName } from '~/config';
+import { getContactEmail, getContactPhone, getFormattedAddress, getSiteName, getWhatsApp } from '~/config';
 
 // Load content from dictionary
 const contactContent = await getContactContent();
@@ -20,8 +20,12 @@ const common = await getCommonContent();
 
 // Get contact info from config
 const email = getContactEmail();
+const phone = getContactPhone();
+const whatsapp = getWhatsApp();
 const address = getFormattedAddress();
 const siteName = getSiteName();
+const phoneHref = phone ? `tel:${phone.replace(/\s/g, '')}` : undefined;
+const whatsappHref = whatsapp ? `https://wa.me/${whatsapp.replace(/\D/g, '')}` : undefined;
 
 // Build form content props for CalendarForm
 const formContent = {
@@ -51,6 +55,53 @@ const metadata = {
   title: `${contactContent.seo.title} - ${siteName}`,
   description: contactContent.seo.description,
 };
+
+const contactItems = [
+  {
+    title: 'Email',
+    description: email,
+    icon: 'tabler:mail',
+    callToAction: {
+      text: 'Scrivi una email',
+      href: `mailto:${email}`,
+      variant: 'link' as const,
+    },
+  },
+  ...(phone
+    ? [
+        {
+          title: 'Telefono',
+          description: phone,
+          icon: 'tabler:phone',
+          callToAction: {
+            text: 'Chiama',
+            href: phoneHref,
+            variant: 'link' as const,
+          },
+        },
+      ]
+    : []),
+  ...(whatsapp
+    ? [
+        {
+          title: 'WhatsApp',
+          description: whatsapp,
+          icon: 'tabler:brand-whatsapp',
+          callToAction: {
+            text: 'Apri WhatsApp',
+            href: whatsappHref,
+            target: '_blank',
+            variant: 'link' as const,
+          },
+        },
+      ]
+    : []),
+  {
+    title: 'Posizione',
+    description: address,
+    icon: 'tabler:map-pin',
+  },
+];
 ---
 
 <Layout metadata={metadata}>
@@ -66,18 +117,7 @@ const metadata = {
   <!-- Features2 Widget ************** -->
   <Features2
     title={contactContent.info.title}
-    items={[
-      {
-        title: 'Email',
-        description: email,
-        icon: 'tabler:mail',
-      },
-      {
-        title: 'Posizione',
-        description: address,
-        icon: 'tabler:map-pin',
-      },
-    ]}
+    items={contactItems}
   />
 
   <!-- Google Maps -->

@@ -40,13 +40,13 @@ const siteConfig: SiteConfig = {
   // ==========================================================================
   contact: {
     /** Primary contact email */
-    email: 'lorenzo@elbombet.it',
+    email: 'loianes.re@gmail.com',
 
     /** Phone number with country code */
-    phone: '+39 XXX XXX XXXX',
+    phone: '+39 349 291 4657',
 
     /** WhatsApp number (optional) */
-    // whatsapp: '+39 XXX XXX XXXX',
+    whatsapp: '+39 349 291 4657',
 
     /** Physical address */
     address: {
