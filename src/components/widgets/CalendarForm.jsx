@@ -70,10 +70,12 @@ const CalendarForm = ({ content = {} }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (isSubmitting) return;
     setIsSubmitting(true);
 
     const bookingData = {
       ...formData,
+      website: new FormData(e.currentTarget).get('website') || '',
       checkIn: checkIn ? checkIn.toISOString() : null,
       checkOut: checkOut ? checkOut.toISOString() : null,
       submitDate: new Date().toISOString()
@@ -137,6 +139,10 @@ const CalendarForm = ({ content = {} }) => {
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-6">
+            <div hidden aria-hidden="true">
+              <label htmlFor="contact-website">Website</label>
+              <input id="contact-website" name="website" type="text" tabIndex={-1} autoComplete="off" />
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Label>{labels.checkIn}</Label>
@@ -212,6 +218,7 @@ const CalendarForm = ({ content = {} }) => {
                 <Input
                   id="name"
                   name="name"
+                  maxLength={120}
                   value={formData.name}
                   onChange={handleInputChange}
                   required
@@ -224,6 +231,7 @@ const CalendarForm = ({ content = {} }) => {
                   id="email"
                   name="email"
                   type="email"
+                  maxLength={254}
                   value={formData.email}
                   onChange={handleInputChange}
                   required
@@ -239,6 +247,8 @@ const CalendarForm = ({ content = {} }) => {
                 name="guests"
                 type="number"
                 min="1"
+                max="20"
+                step="1"
                 value={formData.guests}
                 onChange={handleInputChange}
                 required
@@ -251,6 +261,7 @@ const CalendarForm = ({ content = {} }) => {
               <Textarea
                 id="message"
                 name="message"
+                maxLength={5000}
                 value={formData.message}
                 onChange={handleInputChange}
                 className="h-24"

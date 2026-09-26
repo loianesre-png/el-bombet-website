@@ -108,7 +108,7 @@ const siteConfig: SiteConfig = {
     contactForm: {
       enabled: true,
       provider: 'webhook',
-      webhookUrl: 'https://your-webhook-url.com/endpoint',
+      webhookUrl: '/api/contact',
       // Alternative: send to email
       // provider: 'email',
       // emailTo: 'contact@example.com',
