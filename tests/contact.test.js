@@ -55,9 +55,11 @@ test('contact delivery and rejection behavior', async (t) => {
     calls++;
     assert.equal(url, 'https://api.eu.mailgun.net/v3/mg.fiemmenelcuore.it/messages');
     assert.equal(options.body.get('to'), 'owner@example.com');
+    assert.match(options.body.get('html'), /El Bombet/);
+    assert.match(options.body.get('html'), /Dettagli Ospite/);
     assert.equal(options.body.get('h:Reply-To'), 'visitor@example.com');
     assert.equal(options.body.get('from'), process.env.MAILGUN_FROM);
-    assert.match(options.body.get('text'), /02\/10\/2026/);
+    assert.match(options.body.get('text'), /2 ottobre 2026/);
     assert.equal(options.headers.Authorization, `Basic ${Buffer.from('api:test-only-secret').toString('base64')}`);
     return { ok: true };
   };

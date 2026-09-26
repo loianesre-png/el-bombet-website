@@ -1,8 +1,8 @@
 # Contact form email on Vercel
 
 The form posts JSON to `/api/contact`. Vercel runs `api/contact.js` on the
-server; the rest of the Astro site stays static. The endpoint sends a plain-text
-email with the visitor's address as Reply-To. Recipients and sender are set on
+server; the rest of the Astro site stays static. The endpoint sends an HTML email using the Casa Vacanze Ianes layout, branded El Bombet,
+with a plain-text fallback with the visitor's address as Reply-To. Recipients and sender are set on
 the server and cannot be supplied by visitors.
 
 ## Configuration

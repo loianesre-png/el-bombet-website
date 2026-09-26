@@ -1,3 +1,5 @@
+import { generateHtmlEmail, generateTextEmail } from '../lib/contact-email.js';
+
 const emailPattern = /^[^\s<>@,;]+@[^\s<>@,;]+\.[^\s<>@,;]+$/;
 const hasNewline = /[\r\n]/;
 
@@ -69,26 +71,22 @@ export default async function handler(req, res) {
     return res.status(503).json({ error: 'Invio temporaneamente non disponibile.' });
   }
 
-  const formatDate = (value) =>
-    value ? new Intl.DateTimeFormat('it-IT', { timeZone: 'Europe/Rome' }).format(new Date(value)) : 'Non specificata';
+  const emailData = {
+    name: name.trim(),
+    email,
+    guests: Number(guests),
+    message: message.trim(),
+    checkIn,
+    checkOut,
+    submitDate: new Date().toISOString(),
+  };
   const body = new FormData();
   body.set('from', from);
   body.set('to', to);
   body.set('h:Reply-To', email);
   body.set('subject', 'Nuova richiesta dal sito El Bombet');
-  body.set(
-    'text',
-    [
-      `Nome: ${name.trim()}`,
-      `Email: ${email}`,
-      `Ospiti: ${Number(guests)}`,
-      `Check-in: ${formatDate(checkIn)}`,
-      `Check-out: ${formatDate(checkOut)}`,
-      '',
-      'Messaggio:',
-      message.trim() || 'Nessun messaggio aggiuntivo.',
-    ].join('\n')
-  );
+  body.set('text', generateTextEmail(emailData));
+  body.set('html', generateHtmlEmail(emailData));
   body.set('o:tracking', 'no');
 
   try {
